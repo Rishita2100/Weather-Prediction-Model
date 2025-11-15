@@ -1,5 +1,5 @@
 # app.py
-# Author: Harshit Bisht
+# Author: Rishita sharma
 # Project: Weather Data Visualization (CSV Version)
 
 from flask import Flask, render_template, request
@@ -47,3 +47,4 @@ def create_chart(df, city):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
